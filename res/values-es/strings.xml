@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">My Player</string>
+    <string name="playlist_viewer_title">Listas de reproduccion</string>
+    <string name="playlist_chooser_title">Listas de reproduccion</string>
+    <string name="playlist_creator_title">Nueva lista de reproduccion</string>
+    <string name="choose_playlist_label">Listas de reproduccion</string>
+    <string name="playlist_create_label">Crear lista de reproduccion</string>
+    <string name="choose_this_folder">Elegir esta carpeta</string>
+    <string name="my_playlist">Mi lista de reproduccion</string>
+    <string name="now_playing">En reproduccion</string>
+    
+    <string name="shuffle_on">Aleatorio activado</string>
+    <string name="shuffle_off">Aleatorio desactivado</string>
+    
+    <string name="repeat_on">Repetir pista activado</string>
+    <string name="repeat_off">Repetir pista desactivado</string>
+    
+    <string name="error_choose_a_playlist">Debes elegir una lista de reproduccion o presionar play</string>
+    <string name="error_sdcard_not_mounted">La targeta SD no esta montada o no es leible</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">My Player</string>
+    <string name="playlist_viewer_title">Playlist</string>
+    <string name="playlist_chooser_title">Playlists</string>
+    <string name="playlist_creator_title">Create Playlist</string>
+    <string name="choose_playlist_label">Choose a playlist</string>
+    <string name="playlist_create_label">Create Playlist</string>
+    <string name="choose_this_folder">Choose this folder</string>
+    <string name="my_playlist">My Playlist</string>
+    <string name="now_playing">Now Playing</string>
+    
+    <string name="shuffle_on">Shuffle is on</string>
+    <string name="shuffle_off">Shuffle is off</string>
+    
+    <string name="repeat_on">Repeat is on</string>
+    <string name="repeat_off">Repeat is off</string>
+    
+    <string name="error_choose_a_playlist">First choose a playlist or press play</string>
+    <string name="error_sdcard_not_mounted">SD Card could not be mounted</string>
+
+</resources>

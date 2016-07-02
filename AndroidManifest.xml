@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vha.myplayer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17"
+     />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+    >
+        
+        <activity
+            android:name=".MyPlayerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".PlayListViewerActivity"
+            android:label="@string/playlist_viewer_title"
+        />
+        
+        <activity
+            android:name=".PlaylistChooserActivity"
+            android:label="@string/playlist_chooser_title"
+        />
+        
+        <activity
+            android:name=".PlaylistCreatorActivity"
+            android:label="@string/playlist_creator_title"
+        />
+        
+        <activity
+            android:name=".FolderChooserActivity"
+            android:label="@string/playlist_viewer_title"
+        />
+        
+    </application>
+
+</manifest>
